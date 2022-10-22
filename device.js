@@ -1,4 +1,7 @@
+// Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+// SPDX-License-Identifier: MIT-0
 var awsIot = require('aws-iot-device-sdk');
+
 var device = awsIot.device({
    keyPath: "./certs/private.pem.key",
   certPath: "./certs/certificate.pem.crt",
